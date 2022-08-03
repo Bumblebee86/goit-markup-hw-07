@@ -107,11 +107,11 @@ img {
     opacity: 1;
 }
 
-.menu_link:hover {
+.menu__link:hover {
     color: var(--color-accent-four);
 }
 
-.menu_link {
+.menu__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -231,7 +231,7 @@ img {
     color: var(--color-accent-four);
 }
 
-.footer__social {
+.footer-social {
     width: 206px;
     margin: 0;
     margin-left: 70px;
@@ -332,7 +332,7 @@ img {
 
 /* Hero section */
 
-.hero__section {
+.hero {
     background-color: var(--background-color-accent);
     color: var(--color-accent-two);
     text-align: center;
@@ -464,7 +464,7 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: var(--color-accent);
+    color: var(--color-accent-three);
     padding: 0;
     margin-bottom: 4px;
 }
