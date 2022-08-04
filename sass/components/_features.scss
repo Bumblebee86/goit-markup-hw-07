@@ -1,0 +1,46 @@
+.features {
+    background-color: var(--background-color-white);
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__item {
+        width: 270px;
+    }
+    
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-bottom: 30px;
+    
+        width: 270px;
+        height: 120px;
+    
+        background-color: var(--background-color-light-greу);
+        border-radius: 4px;
+    }
+    
+    &__article {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    &__text {
+        color: var(--color-accent-three);
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+
+}
+
